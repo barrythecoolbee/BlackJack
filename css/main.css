@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url('../img/bttv.jpg');
+    background-size: cover;
+}
+p{
+    font-size: 40px;
+    
+}
+
+#game{
+   text-align: center;
+}
+#game button{
+    text-align: right;
+    background-color: grey;
+    color: whitesmoke;
+    bottom: 25vw;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 0.5vw;
+}
+#game button:hover{
+    background-color: rgba(100, 120, 121, 0.425);
+}

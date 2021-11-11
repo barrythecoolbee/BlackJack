@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="js/blackjack_object.js"></script>
+    <script src="js/blackjack_manager.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://kit.fontawesome.com/afbed5cac4.js" crossorigin="anonymous"></script>
+    <title>BlackJack</title>
+  </head>
+
+  <body>
+    <nav class="navbar py-3 navbar-dark navbar-expand-sm bg-dark">
+        <!-- logo -->
+      <a href="#" class="navbar-brand">
+          <h1><i class="fab fa-wolf-pack-battalion"></i> BlackJack </h1>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks">
+          <span class="navbar-toggler-icon text-primary"></span>
+      </button>
+    </nav>
+    
+
+    <section id="game">
+      <h1>Dealer</h1>
+      <p id="dealer"></p>
+      <p id="dealerhand"></p>
+      <h1>Player</h1>
+      <p id="player"></p>
+      <p id="playerhand"></p>
+      <button id="card" type="button" onclick="player_new_card()">Card</button>
+      <button id="stand" type="button" onclick="dealer_finish()">Stand</button>
+      <button id="new_game" type="button" onclick="new_game()" disabled>New Game</button>
+    </section>
+
+    <section>
+      <script> window.onload = new_game();</script>
+    </section>
+    <footer></footer>
+  </body>
+
+</html> 
