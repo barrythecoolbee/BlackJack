@@ -43,6 +43,7 @@
 
 * [HTML](https://html.com/)
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [Javascript](https://www.javascript.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
